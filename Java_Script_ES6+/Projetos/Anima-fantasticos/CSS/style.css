@@ -1,11 +1,21 @@
 :root {
   --fundo: #faf6ed;
-  --fundo2: #fb5;
-  --cor-texto: #222;
-  --cor-h2: #e54;
+  --fundo2: #88c399;
+  --cor-texto: #233d34;
+  --cor-h2: #56a36c;
+  --cor-borda: #457b55;
 }
 
-body,
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fundo: #233d34;
+    --fundo2: #1f5647;
+    --cor-texto: #faf6ed;
+    --cor-h2: #ffffff;
+    --cor-borda: #88c399;
+  }
+}
+
 h1,
 h2,
 ul,
